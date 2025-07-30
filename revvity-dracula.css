@@ -481,6 +481,10 @@ div[id^="app-launcher-apps-title"] {
   color: #BD93F9 EDITED;
 } EDITED
 
+.mce-content-body td {
+  border-color: #44475A !important EDITED;
+} EDITED
+
 *,
 *:before,
 *:after {
