@@ -336,7 +336,7 @@
   --bs-danger-text-emphasis: rgb(255, 85, 85) EDITED;
   --bs-light-text-emphasis: #F8F8F2 EDITED;
   --bs-dark-text-emphasis: #F8F8F2 EDITED;
-  --bs-primary-bg-subtle: RGB(42, 45, 60) EDITED;
+  --bs-primary-bg-subtle: #282A36 EDITED;
   --bs-secondary-bg-subtle: rgb(69, 73, 96) EDITED;
   --bs-success-bg-subtle: RGB(42, 45, 60) EDITED;
   --bs-info-bg-subtle: RGB(42, 45, 60) EDITED;
@@ -484,6 +484,14 @@ div[id^="app-launcher-apps-title"] {
 .mce-content-body td {
   border-color: #44475A !important EDITED;
 } EDITED
+
+.prev-next + input {
+  background-color: #282A36 EDITED;
+  color: #f8f8f2 EDITED;
+}
+.prev-next + input::placeholder {
+  color: #6272A4 EDITED;
+}
 
 *,
 *:before,
@@ -3335,7 +3343,7 @@ fieldset:disabled .btn {
   --bs-btn-hover-border-color: #6272A4 EDITED;
   --bs-btn-focus-shadow-rgb: 211, 212, 213;
   --bs-btn-active-color: #f8f8f2 EDITED;
-  --bs-btn-active-bg: var(--bs-dark) EDITED;
+  --bs-btn-active-bg: #44475A EDITED;
   --bs-btn-active-border-color: var(--bs-dark) EDITED;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(248, 248, 242 EDITED, 0.125);
   --bs-btn-disabled-color: #f8f8f2 EDITED;
@@ -38839,7 +38847,7 @@ input.rbt-input-main + div {
 .grid .th.readOnly,
 .grid .td.readOnly {
   background-clip: padding-box;
-  background-color: #282a36 EDITED;
+  background-color: #21222C EDITED;
 }
 .grid .th.readOnly.empty .date-time-input.disabled,
 .grid .td.readOnly.empty .date-time-input.disabled {
