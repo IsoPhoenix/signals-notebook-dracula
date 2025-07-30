@@ -37506,6 +37506,14 @@ input::-webkit-contacts-auto-fill-button {
 input::-ms-clear {
   display: none;
 }
+html,
+body,
+#root {
+  overflow: hidden;
+  -ms-overflow-style: none;
+  padding: 0;
+  height: 100%;
+}
 #root {
   display: flex;
   flex-direction: column;
