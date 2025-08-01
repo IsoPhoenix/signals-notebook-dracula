@@ -9537,9 +9537,6 @@ fieldset:disabled .btn {
 .popover-body {
   color: var(--bs-popover-body-color);
 }
-.carousel.pointer-event {
-  touch-action: pan-y;
-}
 .carousel-control-prev,
 .carousel-control-next {
   color: #282a36 EDITED;
@@ -25165,11 +25162,6 @@ input:focus + .btn-slider {
 input:checked + .btn-slider:before {
   background: #282a36 EDITED;
 }
-html,
-body,
-#root {
-  -ms-overflow-style: none;
-}
 .page {
   background: #44475A EDITED;
 }
@@ -25186,9 +25178,6 @@ body,
 .view-container {
   background-color: #282a36 EDITED;
   border: solid 1px #44475A EDITED;
-}
-#content {
-  -ms-overflow-style: auto;
 }
 .error-monitor {
   background-color: #44475A EDITED;
@@ -25374,9 +25363,6 @@ body,
   tr:hover:not([aria-selected="true"])
   td {
   background-color: unset !important;
-}
-.cdd--fullsize {
-  -ms-overflow-style: auto;
 }
 .compound-search-container .btn,
 .compound-search-container .btn.btn-icon {
@@ -25727,8 +25713,6 @@ button.fragment:hover {
   box-shadow: inset 0 1px 1px #0000000d;
 }
 .record-browser .record-browser-filter__item {
-  touch-action: manipulation;
-  background-image: none;
   border: 1px solid #44475A EDITED;
   color: #44475A EDITED;
   background-color: #282a36 EDITED;
@@ -28968,7 +28952,6 @@ a#new-order:hover #materialRequest {
 }
 .data-grid-column-resizer {
   background: #44475A EDITED;
-  touch-action: none;
 }
 .data-grid-column-resizer.isResizing {
   background: #50FA7B EDITED;
@@ -29577,9 +29560,6 @@ div.roles-content.tab-content {
 .material-cell-error {
   box-shadow: 0 0 2px 1px #ff5555 EDITED !important;
 }
-.table-builder .table-editor {
-  -ms-overflow-style: scrollbar;
-}
 .table-builder .table-editor tr .header__dragover {
   box-shadow: inset 0 0 0 1px #50FA7B EDITED;
 }
@@ -30113,9 +30093,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
   background-color: #282a36 EDITED;
   border: 1px solid #44475A EDITED;
 }
-.asset-batch-table-container {
-  -ms-overflow-style: auto;
-}
 .asset-batch-table-container
   .settings-view-header
   .settings-view-header__title {
@@ -30174,15 +30151,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 .content-table .multi-select:hover .placeholder,
 .content-table .multi-select:hover .rbt-token-container {
   border-color: #44475A EDITED;
-  box-shadow: inset 0 1px 1px #00000013;
-}
-.content-table .multi-select:hover .focus {
-  box-shadow: inset 0 1px 1px #00000013, 0 0 8px #6ea8fe99;
-  border-color: #6ea8fe;
-}
-.content-table .multi-select .focus {
-  box-shadow: inset 0 1px 1px #00000013, 0 0 8px #6ea8fe99;
-  border-color: #6ea8fe;
 }
 .content-table .multi-select .placeholder {
   color: #6272A4 EDITED;
@@ -30248,12 +30216,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 .lock-button .unlock {
   background-color: #44475A EDITED;
 }
-.lock-button i {
-  color: #997404;
-}
-.materials-table {
-  -ms-overflow-style: auto;
-}
 .materials-table .material-type {
   color: #6272A4 EDITED;
 }
@@ -30289,7 +30251,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 }
 .material-view-tabs .nav-item .nav-link {
   color: #6272a4 EDITED;
-  background: unset;
 }
 .material-view-tabs .nav-item .nav-link.active {
   color: #8be9fd EDITED;
@@ -30302,14 +30263,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 .materials-activation-table,
 #materials-activation-table {
   --border: 1px solid var(--bs-light-border-subtle);
-}
-.materials-activation-table
-  .materials-activation-table__row:first-child
-  .materials-activation-table__cell:nth-child(n + 2),
-#materials-activation-table
-  .materials-activation-table__row:first-child
-  .materials-activation-table__cell:nth-child(n + 2) {
-  border-inline-start-style: none;
 }
 .materials-activation-table
   .materials-activation-table__row:nth-child(n + 2)
@@ -30346,18 +30299,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 }
 .column-mapping-header {
   border-bottom: 1px solid #44475A EDITED;
-}
-.column-mapping.column-mapping-multiline
-  .column-select-panel
-  .column-fixed-value
-  > div:first-of-type.ref-cell
-  .rbt-input-multi.form-control,
-.column-mapping.column-mapping-multiline
-  .column-select-panel
-  .column-fixed-value
-  > div:first-of-type.ref-cell
-  .rbt-input-multi.btn-select.is-invalid {
-  background-color: initial;
 }
 .column-mapping
   .column-select-panel
@@ -30456,7 +30397,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 }
 .react-table__withSizing .table-column-resizer {
   background: #44475A EDITED;
-  touch-action: none;
 }
 .react-table__withSizing .table-column-resizer.isResizing {
   background: #50FA7B EDITED;
@@ -30468,7 +30408,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 #lightbox-portal .lightbox-error {
   border: solid 1px #44475A EDITED;
   background: #282a36 EDITED;
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #0000001a;
 }
 #lightbox-portal .lightbox-portal__buttons button {
   background-color: #282a36 EDITED;
@@ -30575,9 +30514,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
   background-color: #282a36 EDITED;
   box-shadow: inset 0 -2px #f8f8f2 EDITED;
 }
-.plate-container-summary__data-cell.even {
-  background-color: #cff4fc;
-}
 .plate-container-summary__data-cell.odd {
   background-color: #282a36 EDITED;
 }
@@ -30617,19 +30553,12 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 .well-selection-container .grid-content .section-no-data {
   color: #6272A4 EDITED;
 }
-.print .form-control.children.is-invalid,
-.print .children.is-invalid.btn-select {
-  background-image: none;
-}
 .publish-to-sdf-error-modal details .error-details p:first-child {
   color: var(--bs-red);
 }
 .contextual-picklist-modal .modal-content:has(.picklist-tree:valid) {
   border-color: var(--bs-form-valid-border-color);
   box-shadow: var(--bs-form-valid-border-color) 0 0 3px;
-}
-.contextual-picklist-modal .modal-body {
-  aspect-ratio: 1/1;
 }
 .modal-body .transfer-batch-report-tab-title.total {
   color: #8be9fd EDITED;
@@ -30645,9 +30574,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
   background-color: var(--bs-btn-hover-bg);
   border-color: var(--bs-btn-hover-border-color);
   box-shadow: var(--bs-btn-focus-box-shadow);
-}
-.ns_portal {
-  --navlink-cols: 5;
 }
 .ns_portal #root > header {
   border-bottom: 1px solid var(--revvity-brand-neutral);
@@ -30675,10 +30601,7 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
   color: var(--revvity-brand-neutral);
 }
 .ns_portal nav ul a {
-  container: navlink/inline-size;
-  aspect-ratio: 20/23;
   background-color: var(--revvity-white);
-  box-shadow: #0003 0 0 14px;
 }
 .ns_portal nav ul a:hover,
 .ns_portal nav ul a:focus,
@@ -30688,22 +30611,12 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
     var(--revvity-white),
     rgb(235, 235, 235)
   );
-  box-shadow: #0c0a0a80 0 0 14px;
 }
 .ns_portal nav ul a figure figcaption {
   color: var(--revvity-gray);
-  text-wrap: balance;
-}@counter-style circled-numbers {
-  system: fixed;
-  symbols: ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳;
-  suffix: " ";
-}
-.app-install-modal .modal-header {
-  border-block-end-style: none;
 }
 .app-install-modal .modal-body .windows-warning {
   background-color: var(--bs-gray-200);
-  border: 1px solid;
   color: var(--bs-gray);
 }
 .app-install-modal .modal-body .windows-warning svg {
@@ -30711,9 +30624,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 }
 .app-install-modal .modal-body > ol > li::marker {
   color: var(--bs-gray-500);
-}
-.app-install-modal .modal-body > ol > li > div {
-  inset-block-start: -0.25rem;
 }
 .app-install-modal .modal-body > ol > li > div i {
   color: var(--bs-gray-500);
@@ -30727,9 +30637,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
   background-color: var(--revvity-white);
   color: var(--bs-primary);
 }
-.windows-warning-modal .modal-content {
-  box-shadow: #0003 0 0 14px;
-}
 .windows-warning-modal .modal-header {
   color: var(--bs-black);
 }
@@ -30742,13 +30649,9 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 }
 .instructional-card {
   border: 1px solid #44475A EDITED;
-  box-shadow: 0 0.5rem 1rem #00000026;
 }
 .instructional-card button {
   background-color: #282a36 EDITED;
-}
-.variations-table .horizontal-summary .grid-headers {
-  background-color: #f5f5f5;
 }
 .variations-table .horizontal-summary .summary-spinner {
   background-color: #282a36 EDITED;
@@ -30764,7 +30667,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 }
 .variations-table .horizontal-summary .variant-content .grid:focus-within {
   border: 1px solid rgb(139, 233, 253) EDITED;
-  box-shadow: #9ec5fe 0 0 3px 1px;
 }
 .variations-table .vertical-summary .summary-table .table-row {
   background-color: #282a36 EDITED;
@@ -30870,9 +30772,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 .oligo-content .oligo-content__left .copy-sequence-icon-container {
   border: 1px solid #44475A EDITED;
   background-color: #282a36 EDITED;
-}
-.oligo-content .oligo-content__right {
-  border-right: none !important;
 }
 .oligo-content .oligo-content__right .biodesign-metadata table {
   border: 1px solid #44475A EDITED;
