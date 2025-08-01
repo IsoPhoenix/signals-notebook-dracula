@@ -413,67 +413,67 @@
 div[class^="_appIcon_"] {
   background-color: var(--bs-light) !important;
   border: 1px solid var(--bs-secondary-bg) !important;
-  box-shadow: none !important;
-} EDITED
+  box-shadow: none !important EDITED;
+}
 
 div[class^="_appIcon_"]:hover {
-  background-color: var(--bs-secondary-bg) !important;
-} EDITED
+  background-color: var(--bs-secondary-bg) !important EDITED;
+}
 
 div[id^="app-launcher-apps-title"] {
-  color: var(--bs-body-color);
-} EDITED
+  color: var(--bs-body-color) EDITED;
+}
 
 #widget-child-color-toggle-1:checked + label {
-  color: var(--bs-white);
-} EDITED
+  color: var(--bs-white) EDITED;
+}
 
 .search-result-highlight + hr {
-  color: var(--bs-gray-gray-400);
-} EDITED
+  color: var(--bs-gray-gray-400) EDITED;
+}
 
 .define-new-chemical > button:hover {
   background-color: var(--bs-pink-500) !important;
-  color: var(--bs-black) !important;
-} EDITED
+  color: var(--bs-black) !important EDITED;
+}
 
 .modal-content > .modal-header > .modal-title > span {
-  color: var(--bs-gray-gray-500) !important;
-} EDITED
+  color: var(--bs-gray-gray-500) !important EDITED;
+}
 
 .inline-input input {
   color: var(--bs-black);
-  background-color: var(--bs-gray-gray-200);
-} EDITED
+  background-color: var(--bs-gray-gray-200) EDITED;
+}
 
 .rbt-input-hint {
   color: #F8F8F2 !important EDITED;
   opacity: 0.5 EDITED;
-} EDITED
+}
 
 .chemacx-explorer .chem-card.clickable:hover {
-  outline: 3px solid #50FA7B;
-} EDITED
+  outline: 3px solid #50FA7B EDITED;
+}
 
 .chem-card-body button {
-  color: #6272A4 !important;
-} EDITED
+  color: #6272A4 !important EDITED;
+}
 
 .chemacx-explorer .chemacx-header {
-  border-bottom: 1px solid #44475A;
-} EDITED
+  border-bottom: 1px solid #44475A EDITED;
+}
 
 .mce-content-body [data-mce-selected="inline-boundary"] {
   background-color: #44475A EDITED;
-} EDITED
+}
 
 .mce-content-body .mce-item-anchor[data-mce-selected] {
   color: #BD93F9 EDITED;
-} EDITED
+}
 
 .mce-content-body td {
   border-color: #44475A !important EDITED;
-} EDITED
+}
 
 .prev-next + input {
   background-color: #282A36 EDITED;
@@ -27216,8 +27216,8 @@ body,
 .view-header i {
 }
 .view-header button svg {
-  filter: invert(1);
-} EDITED
+  filter: invert(1) EDITED;
+}
 .view-container {
   background-color: #282a36 EDITED;
   border: solid 1px #44475A EDITED;
@@ -27708,8 +27708,8 @@ button.fragment:hover {
   background-color: #44475A EDITED;
 }
 button.fragment > img {
-  filter: invert(1)
-} EDITED
+  filter: invert(1) EDITED;
+}
 .fragment-thumbnail {
   -webkit-user-select: none;
   user-select: none;
@@ -37615,8 +37615,8 @@ li.picklist-node .dropdown-menu {
   color: var(--bs-black) EDITED;
 }
 .comments-textarea__input::placeholder {
-  color: var(--bs-gray);
-} EDITED
+  color: var(--bs-gray) EDITED;
+}
 .comment-user {
   background-color: #44475A EDITED;
 }
@@ -39724,8 +39724,8 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 .chemacx-explorer-container .chemacx-explorer .chem-card-img.anchor {
 }
 .chemacx-explorer-container .chemacx-explorer .chem-card-img.anchor img {
-  filter: invert(1);
-} EDITED
+  filter: invert(1) EDITED;
+}
 .chemacx-explorer-container.offscreen {
 }
 .card__droparea {
@@ -45649,7 +45649,7 @@ div[class$="-form-barcode"] .auto-gen-label {
 }
 .tox-collection__item-checkmark svg {
   fill: #BD93F9 EDITED;
-} EDITED
+}
 .tox .tox-collection--horizontal {
   background-color: #282A36 EDITED;
   border:1px solid #44475A EDITED;
