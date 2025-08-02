@@ -9392,6 +9392,10 @@ fieldset:disabled .btn {
 .btn-close:focus {
   box-shadow: var(--bs-btn-close-focus-shadow);
 }
+:root,
+[data-bs-theme="light"] {
+  --bs-btn-close-filter: invert(1) grayscale(100%) brightness(200%) EDITED;
+}
 .toast {
   --bs-toast-zindex: 1090;
   --bs-toast-spacing: 1.5rem;
@@ -25175,6 +25179,9 @@ input:checked + .btn-slider:before {
   background-color: #44475A EDITED;
   color: #F8F8F2 EDITED;
 }
+.view-header button svg {
+  filter: invert(1) EDITED;
+}
 .view-container {
   background-color: #282a36 EDITED;
   border: solid 1px #44475A EDITED;
@@ -25391,6 +25398,9 @@ button.fragment {
 button.fragment:hover {
   border: 1px solid rgb(98, 114, 164) EDITED;
   background-color: #44475A EDITED;
+}
+button.fragment > img {
+  filter: invert(1) EDITED;
 }
 .cdd-detached {
   border-bottom: thin solid #44475A EDITED;
@@ -26212,7 +26222,7 @@ button.fragment:hover {
   color: #6272A4 EDITED;
 }
 .ns_inventory .search-result-field__title {
-  color: #997404;
+  color: #FFB86C EDITED;
 }
 .ns_inventory .querySelect {
   color: #6272A4 EDITED !important;
@@ -26780,7 +26790,7 @@ a#new-order:hover #materialRequest {
   color: #6272A4 EDITED;
 }
 .search-result-field__title {
-  color: #997404;
+  color: #FFB86C EDITED;
 }
 .querySelect {
   color: #6272A4 EDITED !important;
@@ -28006,8 +28016,8 @@ a#new-order:hover #materialRequest {
   border: 2px dashed #44475A EDITED;
 }
 .unit-input:focus-within {
-  border-color: #6ea8fe;
-  box-shadow: inset 0 1px 1px #00000013, 0 0 8px #6ea8fe99;
+  border-color: #8BE9FD EDITED;
+  box-shadow: inset 0 1px 1px #00000013, 0 0 8px #8BE9FD EDITED99;
 }
 .entity-inline-properties {
   border: solid 1px #282a36 EDITED;
@@ -29978,6 +29988,9 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
   background-color: #282A36 EDITED;
   border: 1px solid #44475A EDITED;
 }
+.chemacx-explorer-container .chemacx-explorer .chem-card-img.anchor img {
+  filter: invert(1) EDITED;
+}
 .card__droparea--over {
   border: 2px solid rgb(80, 250, 123) EDITED;
 }
@@ -30151,6 +30164,15 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 .content-table .multi-select:hover .placeholder,
 .content-table .multi-select:hover .rbt-token-container {
   border-color: #44475A EDITED;
+  box-shadow: inset 0 1px 1px #00000013;
+}
+.content-table .multi-select:hover .focus {
+  box-shadow: inset 0 1px 1px #00000013, 0 0 8px #8BE9FD EDITED99;
+  border-color: #8BE9FD EDITED;
+}
+.content-table .multi-select .focus {
+  box-shadow: inset 0 1px 1px #00000013, 0 0 8px #8BE9FD EDITED99;
+  border-color: #8BE9FD EDITED;
 }
 .content-table .multi-select .placeholder {
   color: #6272A4 EDITED;
@@ -30215,6 +30237,9 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 .lock-button .lock:hover,
 .lock-button .unlock {
   background-color: #44475A EDITED;
+}
+.lock-button i {
+  color: #FFB86C EDITED;
 }
 .materials-table .material-type {
   color: #6272A4 EDITED;
@@ -30514,8 +30539,11 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
   background-color: #282a36 EDITED;
   box-shadow: inset 0 -2px #f8f8f2 EDITED;
 }
+.plate-container-summary__data-cell.even {
+  background-color: #343642 EDITED;
+}
 .plate-container-summary__data-cell.odd {
-  background-color: #282a36 EDITED;
+  background-color: #44475A EDITED;
 }
 .plate-layer-controls {
   background-color: #282a36 EDITED;
@@ -30652,6 +30680,9 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 }
 .instructional-card button {
   background-color: #282a36 EDITED;
+}
+.variations-table .horizontal-summary .grid-headers {
+  background-color: #44475A EDITED;
 }
 .variations-table .horizontal-summary .summary-spinner {
   background-color: #282a36 EDITED;
@@ -30801,146 +30832,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
   .reference-table
   .tr:hover {
   box-shadow: inset 0 0 0 2px var(--bs-blue);
-}
-.react-datepicker {
-  background-color: #282a36 EDITED;
-  color: #f8f8f2 EDITED;
-}
-.react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle {
-  fill: #282a36 EDITED;
-  color: #282a36 EDITED;
-}
-.react-datepicker__current-month,
-.react-datepicker-time__header,
-.react-datepicker-year-header {
-  color: #f8f8f2 EDITED;
-}
-.react-datepicker__time-container .react-datepicker__time {
-  background: #282a36 EDITED;
-}
-.react-datepicker__time-container
-  .react-datepicker__time
-  .react-datepicker__time-box
-  ul.react-datepicker__time-list
-  li.react-datepicker__time-list-item--selected {
-  color: #282a36 EDITED;
-}
-.react-datepicker__week-number--selected {
-  color: #282a36 EDITED;
-}
-.react-datepicker__day-name,
-.react-datepicker__day,
-.react-datepicker__time-name {
-  color: #f8f8f2 EDITED;
-}
-.react-datepicker__day--highlighted,
-.react-datepicker__month-text--highlighted,
-.react-datepicker__quarter-text--highlighted,
-.react-datepicker__year-text--highlighted {
-  color: #282a36 EDITED;
-}
-.react-datepicker__day--holidays,
-.react-datepicker__month-text--holidays,
-.react-datepicker__quarter-text--holidays,
-.react-datepicker__year-text--holidays {
-  color: #282a36 EDITED;
-}
-.react-datepicker__day--holidays .overlay,
-.react-datepicker__month-text--holidays .overlay,
-.react-datepicker__quarter-text--holidays .overlay,
-.react-datepicker__year-text--holidays .overlay {
-  color: #282a36 EDITED;
-}
-.react-datepicker__day--selected,
-.react-datepicker__day--in-selecting-range,
-.react-datepicker__day--in-range,
-.react-datepicker__month-text--selected,
-.react-datepicker__month-text--in-selecting-range,
-.react-datepicker__month-text--in-range,
-.react-datepicker__quarter-text--selected,
-.react-datepicker__quarter-text--in-selecting-range,
-.react-datepicker__quarter-text--in-range,
-.react-datepicker__year-text--selected,
-.react-datepicker__year-text--in-selecting-range,
-.react-datepicker__year-text--in-range {
-  color: #282a36 EDITED;
-}
-.react-datepicker__day--keyboard-selected,
-.react-datepicker__month-text--keyboard-selected,
-.react-datepicker__quarter-text--keyboard-selected,
-.react-datepicker__year-text--keyboard-selected {
-  background-color: #bad9f1;
-  color: #f8f8f2 EDITED;
-}
-.react-datepicker__month--selecting-range
-  .react-datepicker__day--in-range:not(
-    .react-datepicker__day--in-selecting-range,
-    .react-datepicker__month-text--in-selecting-range,
-    .react-datepicker__quarter-text--in-selecting-range,
-    .react-datepicker__year-text--in-selecting-range
-  ),
-.react-datepicker__year--selecting-range
-  .react-datepicker__day--in-range:not(
-    .react-datepicker__day--in-selecting-range,
-    .react-datepicker__month-text--in-selecting-range,
-    .react-datepicker__quarter-text--in-selecting-range,
-    .react-datepicker__year-text--in-selecting-range
-  ),
-.react-datepicker__month--selecting-range
-  .react-datepicker__month-text--in-range:not(
-    .react-datepicker__day--in-selecting-range,
-    .react-datepicker__month-text--in-selecting-range,
-    .react-datepicker__quarter-text--in-selecting-range,
-    .react-datepicker__year-text--in-selecting-range
-  ),
-.react-datepicker__year--selecting-range
-  .react-datepicker__month-text--in-range:not(
-    .react-datepicker__day--in-selecting-range,
-    .react-datepicker__month-text--in-selecting-range,
-    .react-datepicker__quarter-text--in-selecting-range,
-    .react-datepicker__year-text--in-selecting-range
-  ),
-.react-datepicker__month--selecting-range
-  .react-datepicker__quarter-text--in-range:not(
-    .react-datepicker__day--in-selecting-range,
-    .react-datepicker__month-text--in-selecting-range,
-    .react-datepicker__quarter-text--in-selecting-range,
-    .react-datepicker__year-text--in-selecting-range
-  ),
-.react-datepicker__year--selecting-range
-  .react-datepicker__quarter-text--in-range:not(
-    .react-datepicker__day--in-selecting-range,
-    .react-datepicker__month-text--in-selecting-range,
-    .react-datepicker__quarter-text--in-selecting-range,
-    .react-datepicker__year-text--in-selecting-range
-  ),
-.react-datepicker__month--selecting-range
-  .react-datepicker__year-text--in-range:not(
-    .react-datepicker__day--in-selecting-range,
-    .react-datepicker__month-text--in-selecting-range,
-    .react-datepicker__quarter-text--in-selecting-range,
-    .react-datepicker__year-text--in-selecting-range
-  ),
-.react-datepicker__year--selecting-range
-  .react-datepicker__year-text--in-range:not(
-    .react-datepicker__day--in-selecting-range,
-    .react-datepicker__month-text--in-selecting-range,
-    .react-datepicker__quarter-text--in-selecting-range,
-    .react-datepicker__year-text--in-selecting-range
-  ) {
-  color: #f8f8f2 EDITED;
-}
-.react-datepicker__day--disabled .overlay,
-.react-datepicker__month-text--disabled .overlay,
-.react-datepicker__quarter-text--disabled .overlay,
-.react-datepicker__year-text--disabled .overlay {
-  color: #282a36 EDITED;
-}
-.react-datepicker__close-icon:after {
-  color: #282a36 EDITED;
-}
-.react-datepicker__portal {
-  background-color: #282A36 EDITED;
 }
 .locationGrid__grid__row.gridAxisX,
 .locationGrid__grid__columnHeaderRow.gridAxisX {
