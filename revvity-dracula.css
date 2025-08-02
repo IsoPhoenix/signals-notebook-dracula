@@ -6248,7 +6248,6 @@ fieldset:disabled .btn {
 }
 .navbar-toggler-icon {
   background-image: var(--bs-navbar-toggler-icon-bg);
-  background-repeat: no-repeat;
 }
 .navbar-dark,
 .navbar[data-bs-theme="dark"] {
@@ -6323,7 +6322,6 @@ fieldset:disabled .btn {
 }
 .accordion-button:after {
   background-image: var(--bs-accordion-btn-icon);
-  background-repeat: no-repeat;
 }
 .accordion-button:focus {
   box-shadow: var(--bs-accordion-btn-focus-box-shadow);
@@ -7406,9 +7404,6 @@ fieldset:disabled .btn {
   --bs-list-group-active-color: #282a36 EDITED;
   --bs-list-group-active-bg: #8be9fd EDITED;
   --bs-list-group-active-border-color: #8be9fd EDITED;
-}
-.list-group-numbered > .list-group-item:before {
-  counter-increment: section;
 }
 .list-group-item {
   color: var(--bs-list-group-color);
@@ -9382,7 +9377,6 @@ fieldset:disabled .btn {
   --bs-btn-close-color: #f8f8f2 EDITED;
   --bs-btn-close-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414'/%3e%3c/svg%3e");
   --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(139, 233, 253 EDITED, 0.25);
-  box-sizing: content-box;
   color: var(--bs-btn-close-color);
   background: transparent var(--bs-btn-close-bg) center/1em auto no-repeat;
 }
@@ -9448,7 +9442,8 @@ fieldset:disabled .btn {
   background-color: var(--bs-modal-footer-bg);
   border-top: var(--bs-modal-footer-border-width) solid
     var(--bs-modal-footer-border-color);
-}@media (min-width: 576px) {
+}
+@media (min-width: 576px) {
   .modal {
     --bs-modal-box-shadow: var(--bs-box-shadow);
   }
@@ -9457,9 +9452,6 @@ fieldset:disabled .btn {
   --bs-tooltip-zindex: 1080;
   --bs-tooltip-color: var(--bs-body-bg);
   --bs-tooltip-bg: var(--bs-emphasis-color);
-  text-shadow: none;
-  word-spacing: normal;
-  line-break: auto;
 }
 .bs-tooltip-top .tooltip-arrow:before,
 .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow:before {
@@ -9489,9 +9481,6 @@ fieldset:disabled .btn {
   --bs-popover-header-bg: var(--bs-secondary-bg);
   --bs-popover-body-color: var(--bs-body-color);
   --bs-popover-arrow-border: var(--bs-popover-border-color);
-  text-shadow: none;
-  word-spacing: normal;
-  line-break: auto;
   background-color: var(--bs-popover-bg);
   border: var(--bs-popover-border-width) solid var(--bs-popover-border-color);
 }
@@ -9551,19 +9540,7 @@ fieldset:disabled .btn {
 .carousel-control-next:focus {
   color: #282a36 EDITED;
 }
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-repeat: no-repeat;
-}
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0'/%3e%3c/svg%3e");
-}
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708'/%3e%3c/svg%3e");
-}
 .carousel-indicators [data-bs-target] {
-  box-sizing: content-box;
-  text-indent: -999px;
   background-color: var(--bs-carousel-indicator-active-bg);
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
@@ -13686,9 +13663,6 @@ fieldset:disabled .btn {
 }
 .shadow-lg {
   box-shadow: var(--bs-box-shadow-lg) !important;
-}
-.shadow-none {
-  box-shadow: none !important;
 }
 .focus-ring-primary {
   --bs-focus-ring-color: rgba(
@@ -25024,10 +24998,6 @@ body {
   background-color: #007bff;
   color: #282a36 EDITED;
 }
-.rbt-token .rbt-token-remove-button {
-  background-image: none;
-  text-shadow: none;
-}
 .input-group > .rbt .rbt-input-hint,
 .input-group > .rbt .rbt-aux {
   color: #F8F8F2 !important EDITED;
@@ -25243,12 +25213,6 @@ input:checked + .btn-slider:before {
 .profile-dropdown > .dropdown-menu .snb-version {
   background-color: #44475A EDITED;
 }
-#top-search
-  .quick-search-input-wrapper
-  .rbt-input-hint-container
-  .rbt-input-hint {
-  box-sizing: border-box !important;
-}
 #top-search .form-control,
 #top-search .btn-select.is-invalid {
   background-color: #282a36 EDITED;
@@ -25277,16 +25241,12 @@ input:checked + .btn-slider:before {
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
   color: #282a36 EDITED;
-  background-color: #3d8bfd;
+  background-color: #8BE9FD EDITED;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
   color: #6272a4 EDITED;
-}
-.dropdown-menu > .disabled > a:hover,
-.dropdown-menu > .disabled > a:focus {
-  background-image: none;
 }
 .dropdown-header {
   color: #6272a4 EDITED;
@@ -25454,8 +25414,6 @@ button.fragment > img {
   background-color: #f8f8f2 EDITED;
 }
 .grid .table > :not(caption) > * > * {
-  color: unset;
-  background-color: unset;
   box-shadow: unset;
 }
 .grid .tr {
@@ -25488,9 +25446,6 @@ button.fragment > img {
 .grid .is-invalid {
   color: #FF5555 EDITED;
 }
-.grid .th.row-actions {
-  outline: 0 !important;
-}
 .grid .td.active {
   border: 2px solid #8be9fd EDITED;
 }
@@ -25512,9 +25467,6 @@ button.fragment > img {
 .grid .btn-grid:hover,
 .grid .btn-grid.overmenu-show {
   color: #50FA7B EDITED !important;
-}
-.grid select {
-  background-image: none;
 }
 .cell-multi-link-btn.btn.btn-link {
   color: #8be9fd EDITED;
@@ -25588,9 +25540,6 @@ button.fragment > img {
 .worksheet .worksheet-field-cell {
   background-color: #282a36 EDITED;
 }
-.worksheet .table-responsive .table tr td {
-  background-color: unset;
-}
 .worksheet .table-responsive .table:not([style*="border-color"]) td,
 .worksheet .table-responsive .table:not([style*="border-color"]) th {
   border-color: #44475A EDITED;
@@ -25613,7 +25562,7 @@ button.fragment > img {
   background-color: initial;
 }
 .ref-cell .rbt .rbt-input-multi .rbt-input-wrapper .link-wrapper {
-  background-color: #cff4fc;
+  background-color: #6272A4 EDITED;
 }
 .ref-cell
   .rbt
@@ -25627,7 +25576,7 @@ button.fragment > img {
   .rbt-input-multi
   .rbt-input-wrapper
   .link-wrapper.show-more-btn.show-more-btn__pills {
-  background-color: #cff4fc;
+  background-color: #6272A4 EDITED;
 }
 .ref-cell .rbt.no-border .rbt-input-multi.form-control,
 .ref-cell .rbt.no-border .rbt-input-multi.btn-select.is-invalid {
@@ -25644,7 +25593,7 @@ button.fragment > img {
   background-color: initial;
 }
 .popover-multi-select .rbt .rbt-input-multi .rbt-input-wrapper .link-wrapper {
-  background-color: #cff4fc;
+  background-color: #6272A4 EDITED;
 }
 .popover-multi-select
   .rbt
@@ -25658,7 +25607,7 @@ button.fragment > img {
   .rbt-input-multi
   .rbt-input-wrapper
   .link-wrapper.show-more-btn.show-more-btn__pills {
-  background-color: #cff4fc;
+  background-color: #6272A4 EDITED;
 }
 .popover-multi-select .rbt.no-border .rbt-input-multi.form-control,
 .popover-multi-select .rbt.no-border .rbt-input-multi.btn-select.is-invalid {
@@ -25700,7 +25649,7 @@ button.fragment > img {
   border-bottom: 1px solid #44475A EDITED;
 }
 .attribute-container .attribute-wrapper {
-  background-color: #cff4fc;
+  background-color: #6272A4 EDITED;
 }
 .attribute-container .no-border .rbt-input-multi.form-control,
 .attribute-container .no-border .rbt-input-multi.btn-select.is-invalid {
@@ -25771,19 +25720,16 @@ button.fragment > img {
 }
 .record-browser .record-browser-row__tag-name--selectable:hover,
 .record-browser .record-browser-row__tag-value--selectable:hover {
-  color: #282a36 EDITED;
+  color: #F8F8F2 EDITED;
   background-color: #6272a4 EDITED;
 }
 .record-browser .record-browser-row__tag-name--selectable:active,
 .record-browser .record-browser-row__tag-value--selectable:active {
-  color: #282a36 EDITED;
-  background-color: #bcc1c6;
+  color: #F8F8F2 EDITED;
+  background-color: #6272A4 EDITED;
 }
 .record-browser .record-browser-row__description {
   color: #6272A4 EDITED;
-}
-.record-browser .record-browser-row__icon-cell {
-  background-repeat: no-repeat;
 }
 .record-browser .record-browser-row__timeago-cell {
   color: #6272A4 EDITED;
@@ -25792,17 +25738,16 @@ button.fragment > img {
   color: #6272A4 EDITED;
 }
 .record-browser .record-browser-row.admin {
-  color: #ab296a;
+  color: #FF79C6 EDITED;
 }
 .record-browser .record-browser-row-col-header {
   color: #f8f8f2 EDITED;
 }
 .record-browser .rbr-card-insert {
-  box-shadow: 0 0.5rem 1rem #00000026;
   border: 1px solid #44475A EDITED;
 }
 .record-browser .rbr-card-insert:hover {
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #3d8bfd1a;
+  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #8BE9FD EDITED1a;
   border: 1px solid #8be9fd EDITED;
 }
 .record-browser .rbr-card-insert:active {
@@ -25814,7 +25759,7 @@ button.fragment > img {
 .record-browser .preview.scalable:hover {
   background-color: #282a36 EDITED;
   border: 1px dotted rgb(80, 250, 123) EDITED;
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #3d8bfd1a;
+  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #8BE9FD EDITED1a;
   transition-delay: 1s;
 }
 .record-browser .record-browser-tags {
@@ -26026,7 +25971,6 @@ button.fragment > img {
 }
 .binder__tab--hover .binder__tab-content {
   color: #282a36 EDITED;
-  text-shadow: none;
 }
 .icon-color,
 .icon-color :hover {
@@ -26332,7 +26276,7 @@ button.fragment > img {
   background-color: #282a36 EDITED;
 }
 .ns_inventory .search__searchItemRow__infoColumn__name {
-  color: #3d8bfd;
+  color: #8BE9FD EDITED;
 }
 .ns_inventory .search__searchItemRow__infoColumn__type {
   color: #F8F8F2 EDITED;
@@ -26483,19 +26427,12 @@ button.fragment > img {
 .ns_inventory .search__searchItem {
   border: 1px solid #44475A EDITED;
 }
-.ns_inventory .create-dropdown-item-row svg {
-    contrast(86%);
-}
 .ns_inventory .item__Location {
   background: #282a36 EDITED;
 }
 .ns_inventory .item__Location .item table:not(.content-table-tab) .heading {
   color: #6272a4 EDITED;
   border-bottom: 1px solid #6272a4 EDITED;
-}
-.ns_inventory .item__Location .item__containers ul,
-.ns_inventory .item__Location .item__sublocations ul {
-  column-count: 2;
 }
 .ns_inventory .item__Location .item__containers ul li,
 .ns_inventory .item__Location .item__sublocations ul li {
@@ -26562,9 +26499,6 @@ button.fragment > img {
 }
 .ns_inventory .location__propertyList__item {
   border-top: 1px solid #44475A EDITED;
-}
-.ns_inventory .item__Tabs_Container .record-browser-toolbar .btn-group {
-  order: 1;
 }
 .ns_inventory .record-browser-card {
   border: 1px solid #44475A EDITED;
@@ -26658,7 +26592,7 @@ button.fragment > img {
   background-color: #282a36 EDITED;
 }
 .ns_inventory .button-toolbar .btn.btn-search-toolbar:focus {
-  background: #087990;
+  background: #6272A4 EDITED;
 }
 .ns_inventory .chemacx-search-result .chem-card {
   border: 1px solid #44475A EDITED;
@@ -26686,27 +26620,7 @@ button.fragment > img {
 }
 .ns_inventory .supplier-table tr:hover > td,
 .ns_inventory .supplier-table tr.selected-package > td {
-  background-color: #cff4fc;
-}
-.ns_inventory
-  .order-table-wrapper
-  .order-table-content
-  .order-table
-  td
-  div
-  div
-  div,
-.ns_inventory
-  .order-table-wrapper
-  .order-table-content
-  .order-table
-  td
-  div
-  div
-  div
-  div {
-  color: unset;
-  border: unset;
+  background-color: #6272A4 EDITED;
 }
 .ns_inventory
   .order-table-wrapper
@@ -26731,7 +26645,7 @@ a#new-order #materialRequest {
 }
 a#new-order #materialRequest:hover,
 a#new-order:hover #materialRequest {
-  color: #3d8bfd;
+  color: #8BE9FD EDITED;
 }
 .visually-hidden {
   clip: rect(248, 248, 242 EDITED, 0);
@@ -27040,12 +26954,13 @@ a#new-order:hover #materialRequest {
 }
 .field-filter-record-picker__count {
   color: #6272A4 EDITED;
-}@keyframes highlight {
+}
+@keyframes highlight {
   0% {
     background-color: #8be9fd EDITED;
   }
   50% {
-    background-color: #084298;
+    background-color: #57aabd EDITED;
   }
   to {
     background-color: #8be9fd EDITED;
@@ -27055,16 +26970,16 @@ a#new-order:hover #materialRequest {
   .datetime-range-start.open
   .react-datepicker__input-container
   input:not(:focus) {
-  background-color: #ffe5d0;
+  background-color: #FFB86C EDITED;
 }
 .datetime-range-field-filter
   .datetime-range-end.open
   .react-datepicker__input-container
   input:not(:focus) {
-  background-color: #ffe5d0;
+  background-color: #FFB86C EDITED;
 }
 .datetime-range-field-filter .in-selecting-range {
-  background-color: #3d8bfd66;
+  background-color: #8BE9FD EDITED66;
 }
 .op-icon {
   color: #F8F8F2 EDITED;
@@ -27123,14 +27038,10 @@ a#new-order:hover #materialRequest {
 }
 .search-card-insert {
   background-color: #282a36 EDITED;
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #0000001a;
   border: 1px solid #44475A EDITED;
 }
 .active .search-card-insert {
   outline: 4px solid #8be9fd EDITED;
-}
-.search-card-insert:active {
-  box-shadow: 0 3px 4px -2px #00000080;
 }
 .search-card-insert .search-card-top {
   color: #6272A4 EDITED;
@@ -27145,11 +27056,11 @@ a#new-order:hover #materialRequest {
   color: #50FA7B EDITED;
 }
 .search-card-insert--clicked-highlight {
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #3d8bfd1a;
+  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #8BE9FD EDITED1a;
   border: 1px solid #8be9fd EDITED;
 }
 .search-card-insert--clickable:hover {
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #3d8bfd1a;
+  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #8BE9FD EDITED1a;
   border: 1px solid #8be9fd EDITED;
 }
 .search-card-insert--clickable:hover .search-card-bottom.image-optimized div {
@@ -27164,10 +27075,10 @@ a#new-order:hover #materialRequest {
 }
 .search-card-highlight .search-card-insert:hover {
   border: 1px solid #44475A EDITED;
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #3d8bfd1a;
+  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #8BE9FD EDITED1a;
 }
 .work-order-card {
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #3d8bfd1a;
+  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #8BE9FD EDITED1a;
   color: #6272a4 EDITED;
   background-color: #282a36 EDITED;
 }
@@ -27251,7 +27162,6 @@ a#new-order:hover #materialRequest {
   .search-result-column-content
   .show-more {
   border: 1px solid #44475A EDITED;
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #0000001a;
 }
 .search-result--board-container
   .search-result-column-wrapper
@@ -27309,9 +27219,6 @@ a#new-order:hover #materialRequest {
 }
 .no-bookmarks {
   color: #6272A4 EDITED;
-}
-.bookmarks button:focus {
-  outline: 0 !important;
 }
 .bookmarks__list {
   border: 1px solid #282a36 EDITED;
@@ -27377,7 +27284,6 @@ a#new-order:hover #materialRequest {
   background-color: #282a36 EDITED;
 }
 .search-preview__button .btn.btn-icon {
-  box-shadow: 0 0 1px 1px #0003;
   background-color: #282a36 EDITED;
 }
 .search-preview__button .btn.btn-icon:hover {
@@ -27394,9 +27300,6 @@ a#new-order:hover #materialRequest {
 }
 .search-preview__button-lg .btn.btn-icon:active {
   background-color: #6272A4 EDITED;
-}
-.search-preview__button-lg .btn.btn-icon {
-  box-shadow: 0 0 1px 1px #0003;
 }
 .tooltip.green > .tooltip-inner {
   background-color: #50fa7b EDITED;
@@ -27426,9 +27329,6 @@ a#new-order:hover #materialRequest {
 .search-filter-tags__item .btn.btn-icon {
   color: #44475A EDITED;
 }
-.search-filter-tags__item:hover .btn.btn-icon {
-  color: unset;
-}
 .search-filter-tags__item .op-label {
   color: #6272A4 EDITED;
 }
@@ -27455,22 +27355,6 @@ a#new-order:hover #materialRequest {
 }
 .exid-separator {
   border-left: 1px solid #6272a4 EDITED;
-}
-.svg-icon,
-.image-icon {
-  box-sizing: content-box;
-}
-.encoded-svg-icon svg {
-  box-sizing: content-box;
-}
-.icon-background-image {
-  background-repeat: no-repeat;
-}
-.mce-tinymce {
-  box-shadow: none !important;
-}
-.mce-top-part:before {
-  box-shadow: none !important;
 }
 .tinymce-custom-autocomplete .select-menu-header {
   background-color: #8be9fd EDITED;
@@ -27504,20 +27388,16 @@ a#new-order:hover #materialRequest {
 .select-text-template > div:last-of-type {
   border: 1px solid #44475A EDITED;
 }
-.message {
-  border: 1px solid;
-}
 .isa-moveSuccess,
 .isa-pending {
-  background-color: #432874;
-  color: #282a36 EDITED;
+  background-color: #282a36 EDITED;
+  color: #BD93F9 EDITED;
 }
 .isa-primary {
   border: solid 1px var(--bs-primary-border-subtle);
 }
 .inline-input input {
   background-color: #44475A EDITED !important;
-  background-image: none;
 }
 .toolbar {
   border: 1px solid #44475A EDITED;
@@ -27539,7 +27419,6 @@ a#new-order:hover #materialRequest {
   color: #44475A EDITED;
 }
 .toolbar .toolbar__tab-button {
-  box-sizing: content-box;
   color: #6272a4 EDITED;
 }
 .toolbar .toolbar__tab-button:hover {
@@ -27581,9 +27460,6 @@ a#new-order:hover #materialRequest {
 }
 .user-info-name {
   color: #F8F8F2 EDITED;
-}
-.mini-status-badge {
-  border: 1px solid;
 }
 .entity-info > .entity-info-text > .entity-info-description > span {
   color: #44475A EDITED;
@@ -27912,15 +27788,15 @@ a#new-order:hover #materialRequest {
   .status-history-event
   .status-history-comment {
   border-left: solid 3px rgba(80, 250, 123 EDITED, 0.25);
-  color: #75b798;
+  color: #50FA7B EDITED;
 }
 .status-info-view
   .status-history
   .status-history-events
   .status-history-event.highlight
   .status-history-comment {
-  border-left: solid 3px rgba(227, 93.4, 106.2, 0.25);
-  color: #e35d6a;
+  border-left: solid 3px rgba(255, 121, 198 EDITED, 0.25);
+  color: #FF79C6 EDITED;
 }
 #sidepanel {
   background-color: #282a36 EDITED;
@@ -27930,7 +27806,6 @@ a#new-order:hover #materialRequest {
   border-bottom: 1px solid #44475A EDITED;
 }
 #sidepanel #sidepanel-entity-header {
-  border-left-style: solid;
   border-bottom: 1px solid #44475A EDITED;
 }
 #sidepanel.sidepanel--on {
@@ -27991,7 +27866,7 @@ a#new-order:hover #materialRequest {
 .attachment-image-select.image-select
   .image-preview-wrapper
   .image-preview.loaded {
-  border: 1px solid rgba(206, 212, 218, 0.71) rgba(206, 212, 218, 0.792);
+  border: 1px solid rgba(98, 114, 164 EDITED, 0.71) rgba(98, 114, 164 EDITED, 0.792);
   box-shadow: 6px 6px #44475A EDITED56, 12px 12px #44475A EDITED48;
 }
 .attachment-image-select.image-select .vertical-separator {
@@ -28003,7 +27878,7 @@ a#new-order:hover #materialRequest {
 }
 .image-preview-wrapper > button:hover,
 .image-input > button:hover {
-  color: #ab296a;
+  color: #FF79C6 EDITED;
 }
 .image-input.empty {
   border: var(--bs-border-width) solid var(--bs-border-color);
@@ -28045,11 +27920,6 @@ a#new-order:hover #materialRequest {
 .search-filter-amount-unit button.btn-search-filter {
   color: #6272A4 EDITED;
 }
-.search-filter-amount-unit button.btn-search-filter:hover,
-.search-filter-amount-unit button.btn-search-filter:focus,
-.search-filter-amount-unit button.btn-search-filter:active {
-  box-shadow: none !important;
-}
 .search-filter-amount-unit button.btn-search-filter:after {
   color: #6272A4 EDITED;
 }
@@ -28064,7 +27934,7 @@ a#new-order:hover #materialRequest {
 }
 .enumerator-group .group-card {
   border: 1px solid #44475A EDITED;
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #3d8bfd1a;
+  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #8BE9FD EDITED1a;
 }
 .enumerator-group .group-card.selected {
   outline: 2px solid rgb(139, 233, 253) EDITED;
@@ -28132,7 +28002,6 @@ a#new-order:hover #materialRequest {
 }
 .sibling-dropdown .dropdown-menu .sibling-links .dropdown-item {
   border: 1px solid #44475A EDITED;
-  border-bottom: 1px solid transparent;
 }
 .sibling-dropdown .dropdown-menu .sibling-links .dropdown-item,
 .sibling-dropdown .dropdown-menu .sibling-links .dropdown-item:link,
@@ -28152,530 +28021,6 @@ a#new-order:hover #materialRequest {
 .sibling-dropdown .dropdown-menu .sibling-links .dropdown-item:active {
   border-color: #8be9fd EDITED;
 }
-.react-datepicker.custom-datepicker.custom-datepicker--time
-  .react-datepicker__input-time-container
-  .react-datepicker-time__input-container
-  .react-datepicker-time__input
-  .datePickerTime
-  table
-  th {
-  border-bottom: 1px solid #282a36 EDITED;
-}
-.react-datepicker.custom-datepicker.custom-datepicker--time
-  .react-datepicker__input-time-container
-  .react-datepicker-time__input-container
-  .react-datepicker-time__input
-  .datePickerTime
-  table
-  th:hover {
-  background: #44475A EDITED;
-}
-.react-datepicker.custom-datepicker.custom-datepicker--time
-  .react-datepicker__input-time-container
-  .react-datepicker-time__input-container
-  .react-datepicker-time__input
-  .datePickerTime
-  table
-  tbody
-  td
-  div.datePickerCounters
-  .datePickerCounter
-  .datePickerBtn:hover {
-  background: #44475A EDITED;
-}
-.react-datepicker.custom-datepicker {
-  box-shadow: 0 1px 3px #0000001a;
-  border: 1px solid #282a36 EDITED;
-}
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker-time__input-container
-  .react-datepicker-time__input
-  .time-button {
-  border-top: 1px solid #282a36 EDITED;
-}
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker-time__input-container
-  .react-datepicker-time__input
-  .time-button:hover {
-  background-color: #44475A EDITED;
-}
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__header--custom,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__header--custom,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__header--custom {
-  background-color: #282a36 EDITED;
-}
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__header--custom
-  .datepicker-date-header,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__header--custom
-  .datepicker-date-header,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__header--custom
-  .datepicker-date-header {
-  border-bottom: 1px solid #282a36 EDITED;
-}
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__header--custom
-  button,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__header--custom
-  button,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__header--custom
-  button {
-  background-color: #282a36 EDITED;
-}
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__header--custom
-  button:hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__header--custom
-  button:hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__header--custom
-  button:hover {
-  background-color: #282a36 EDITED;
-}
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__header--custom
-  .react-datepicker__current-month:hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__header--custom
-  .react-datepicker-year-header:hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__header--custom
-  .react-datepicker__current-month:hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__header--custom
-  .react-datepicker-year-header:hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__header--custom
-  .react-datepicker__current-month:hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__header--custom
-  .react-datepicker-year-header:hover {
-  background-color: #282a36 EDITED;
-}
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__week
-  .react-datepicker__day--today:before,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__day-names
-  .react-datepicker__day--today:before,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__month-wrapper
-  .react-datepicker__day--today:before,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__year-wrapper
-  .react-datepicker__day--today:before,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__week
-  .react-datepicker__day--today:before,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__day-names
-  .react-datepicker__day--today:before,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__month-wrapper
-  .react-datepicker__day--today:before,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__year-wrapper
-  .react-datepicker__day--today:before,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__week
-  .react-datepicker__day--today:before,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__day-names
-  .react-datepicker__day--today:before,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__month-wrapper
-  .react-datepicker__day--today:before,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__year-wrapper
-  .react-datepicker__day--today:before {
-  border-left: 7px solid transparent;
-  border-bottom: 7px solid rgb(139, 233, 253) EDITED;
-  border-top-color: #44475A EDITED;
-}
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__week
-  .react-datepicker__day--outside-month,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__day-names
-  .react-datepicker__day--outside-month,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__month-wrapper
-  .react-datepicker__day--outside-month,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__year-wrapper
-  .react-datepicker__day--outside-month,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__week
-  .react-datepicker__day--outside-month,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__day-names
-  .react-datepicker__day--outside-month,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__month-wrapper
-  .react-datepicker__day--outside-month,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__year-wrapper
-  .react-datepicker__day--outside-month,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__week
-  .react-datepicker__day--outside-month,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__day-names
-  .react-datepicker__day--outside-month,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__month-wrapper
-  .react-datepicker__day--outside-month,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__year-wrapper
-  .react-datepicker__day--outside-month {
-  color: #6272A4 EDITED;
-}
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__week
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ),
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__day-names
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ),
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__month-wrapper
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ),
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__year-wrapper
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ),
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__week
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ),
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__day-names
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ),
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__month-wrapper
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ),
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__year-wrapper
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ),
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__week
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ),
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__day-names
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ),
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__month-wrapper
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ),
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__year-wrapper
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ) {
-  color: #f8f8f2 EDITED;
-}
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__week
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ):hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__day-names
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ):hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__month-wrapper
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ):hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__year-wrapper
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ):hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__week
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ):hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__day-names
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ):hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__month-wrapper
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ):hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__year-wrapper
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ):hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__week
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ):hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__day-names
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ):hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__month-wrapper
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ):hover,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__year-wrapper
-  .react-datepicker__month-text--keyboard-selected:not(
-    .react-datepicker__month--selected
-  ):hover {
-  background-color: #282a36 EDITED;
-}
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__week
-  .react-datepicker__day--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__week
-  .react-datepicker__month-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__week
-  .react-datepicker__year-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__day-names
-  .react-datepicker__day--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__day-names
-  .react-datepicker__month-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__day-names
-  .react-datepicker__year-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__month-wrapper
-  .react-datepicker__day--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__month-wrapper
-  .react-datepicker__month-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__month-wrapper
-  .react-datepicker__year-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__year-wrapper
-  .react-datepicker__day--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__year-wrapper
-  .react-datepicker__month-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__input-time-container
-  .react-datepicker__year-wrapper
-  .react-datepicker__year-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__week
-  .react-datepicker__day--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__week
-  .react-datepicker__month-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__week
-  .react-datepicker__year-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__day-names
-  .react-datepicker__day--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__day-names
-  .react-datepicker__month-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__day-names
-  .react-datepicker__year-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__month-wrapper
-  .react-datepicker__day--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__month-wrapper
-  .react-datepicker__month-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__month-wrapper
-  .react-datepicker__year-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__year-wrapper
-  .react-datepicker__day--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__year-wrapper
-  .react-datepicker__month-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__month-container
-  .react-datepicker__year-wrapper
-  .react-datepicker__year-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__week
-  .react-datepicker__day--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__week
-  .react-datepicker__month-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__week
-  .react-datepicker__year-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__day-names
-  .react-datepicker__day--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__day-names
-  .react-datepicker__month-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__day-names
-  .react-datepicker__year-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__month-wrapper
-  .react-datepicker__day--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__month-wrapper
-  .react-datepicker__month-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__month-wrapper
-  .react-datepicker__year-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__year-wrapper
-  .react-datepicker__day--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__year-wrapper
-  .react-datepicker__month-text--selected,
-.react-datepicker.custom-datepicker
-  .react-datepicker__year--container
-  .react-datepicker__year-wrapper
-  .react-datepicker__year-text--selected {
-  background-color: #3d8bfd;
-}
 .plate-container-controls .map-controls button:nth-of-type(2) {
   border-left: 1px solid #6272A4 EDITED;
 }
@@ -28686,7 +28031,6 @@ a#new-order:hover #materialRequest {
   border: 1px solid #282a36 EDITED;
   box-shadow: 0 0 1px 1px #44475A EDITED inset;
   background-color: #282a36 EDITED;
-  -webkit-touch-callout: none;
 }
 .plate-well .plate-edit {
   color: #6272a4 EDITED !important;
@@ -28697,9 +28041,6 @@ a#new-order:hover #materialRequest {
 }
 .selection-base {
   box-shadow: 0 0 0 2px #282a36 EDITED, 0 0 3px 3px #f8f8f2 EDITED;
-}
-.formula__group {
-  border-bottom: 0.15rem dashed transparent;
 }
 .formula__group--error {
   border-bottom-color: #ff5555 EDITED;
@@ -28716,7 +28057,7 @@ a#new-order:hover #materialRequest {
 .formula__part--double.btn,
 .formula__part--unmatched-column,
 .formula__part--unmatched-column.btn {
-  color: #3d8bfd;
+  color: #8BE9FD EDITED;
 }
 .formula__part--operator,
 .formula__part--operator.btn,
@@ -28952,11 +28293,6 @@ a#new-order:hover #materialRequest {
 .data-grid table thead tr th .overmenu-show {
   color: #50FA7B EDITED;
 }
-.data-grid table tbody tr td div div div,
-.data-grid table tbody tr td div div div div {
-  color: unset;
-  border: unset;
-}
 .data-grid-column-filter__header {
   color: #6272a4 EDITED;
 }
@@ -28987,9 +28323,6 @@ a#new-order:hover #materialRequest {
 }
 .inventa-dashboard .app-list-wrapper .app-list .icon-wrapper {
   box-shadow: 0 2px 6px #6272a4 EDITED80;
-}
-.inventa-dashboard .app-list-wrapper .app-list .icon-wrapper .icon-cover {
-  background: linear-gradient(0deg, #212529e6, #21252999 60%, #21252900);
 }
 .inventa-dashboard .app-list-wrapper .app-list .icon-wrapper .icon-cover span {
   color: #282a36 EDITED;
@@ -29029,7 +28362,7 @@ a#new-order:hover #materialRequest {
   .compound-list-content
   .table-wrapper.group-table-wrapper
   .selected-group {
-  background-color: #cff4fc;
+  background-color: #6272A4 EDITED;
 }
 .analysis-viewer .compound-list-content .table-wrapper th {
   background-color: #282a36 EDITED;
@@ -29107,7 +28440,6 @@ label:has(.checkbox-icon) input[type="radio"] {
 }
 .error-details {
   background-color: var(--bs-gray-200);
-  counter-increment: errorNumber;
 }
 .error-details > button svg:not([data-icon="check"]) {
   color: var(--bs-gray) !important;
@@ -29117,12 +28449,6 @@ label:has(.checkbox-icon) input[type="radio"] {
 }
 .publish-project-data {
   background-color: #282a36 EDITED;
-}
-.workflowStepper {
-  -webkit-box-align: center;
-}
-.workflowStepper .step {
-  -webkit-box-align: center;
 }
 .workflowStepper .step.active .stepSvg,
 .workflowStepper .step.completed .stepSvg {
@@ -29189,15 +28515,15 @@ li.picklist-node .dropdown-toggle {
   color: #282a36 EDITED;
 }
 .error-message .red-tooltip > .tooltip-inner {
-  background-color: #f1aeb5;
+  background-color: #362828 EDITED;
 }
 .error-message .red-tooltip > .tooltip-arrow:before {
-  border-bottom-color: #f1aeb5;
+  border-bottom-color: #FF5555 EDITED;
 }
 .profile-image:hover .profile-image--progress .error-icon,
 .profile-image-add:hover .profile-image--progress .error-icon,
 .error-icon {
-  color: #f1aeb5;
+  color: #FF5555 EDITED;
 }
 #notifications-dropdown + ul {
   border: 1px solid rgb(80, 250, 123) EDITED;
@@ -29310,8 +28636,6 @@ li.comments-textarea__suggestions__item--focused {
 .endpoint-card:hover,
 .endpoint-card.selected {
   border: 1px rgb(80, 250, 123) EDITED solid;
-  box-shadow: 0 0.5rem 1rem #00000026;
-  outline-style: none;
 }
 .endpoint-card.selected {
   background-color: #282a36 EDITED;
@@ -29324,10 +28648,6 @@ li.comments-textarea__suggestions__item--focused {
 }
 .pubchem-dialog #u166 {
   color: #6272a4 EDITED;
-}
-.invalid-with-no-icon .form-control.is-invalid,
-.invalid-with-no-icon .is-invalid.btn-select {
-  background-image: none;
 }
 .chemistry-autotext .chemistry-autotext-sidebar {
   border-right: 1px solid #44475A EDITED;
@@ -29405,14 +28725,11 @@ li.comments-textarea__suggestions__item--focused {
 }
 .license-summary .record-browser-row__tag-name--selectable:active,
 .license-summary .record-browser-row__tag-value--selectable:active {
-  color: #282a36 EDITED;
-  background-color: #bcc1c6;
+  color: #F8F8F2 EDITED;
+  background-color: #6272A4 EDITED;
 }
 .license-summary .record-browser-row__description {
   color: #6272A4 EDITED;
-}
-.license-summary .record-browser-row__icon-cell {
-  background-repeat: no-repeat;
 }
 .license-summary .record-browser-row__timeago-cell {
   color: #6272A4 EDITED;
@@ -29421,21 +28738,17 @@ li.comments-textarea__suggestions__item--focused {
   color: #6272A4 EDITED;
 }
 .license-summary .record-browser-row.admin {
-  color: #ab296a;
+  color: #FF79C6 EDITED;
 }
 .license-summary .record-browser-row-col-header {
   color: #f8f8f2 EDITED;
 }
 .license-summary .rbr-card-insert {
-  box-shadow: 0 0.5rem 1rem #00000026;
   border: 1px solid #44475A EDITED;
 }
 .license-summary .rbr-card-insert:hover {
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #3d8bfd1a;
+  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #8BE9FD EDITED1a;
   border: 1px solid #8be9fd EDITED;
-}
-.license-summary .rbr-card-insert:active {
-  box-shadow: 0 3px 4px -2px #00000080;
 }
 .license-summary .rbr-card-insert .topinfo {
   color: #6272A4 EDITED;
@@ -29443,11 +28756,7 @@ li.comments-textarea__suggestions__item--focused {
 .license-summary .preview.scalable:hover {
   background-color: #282a36 EDITED;
   border: 1px dotted rgb(80, 250, 123) EDITED;
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #3d8bfd1a;
-  transition-delay: 1s;
-}
-.license-summary .record-browser-row {
-  border-bottom: unset;
+  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #8BE9FD EDITED1a;
 }
 .new-users-tabs .nav-link {
   color: #6272a4 EDITED;
@@ -29476,12 +28785,6 @@ li.comments-textarea__suggestions__item--focused {
 }
 .internal-auth.alert-danger .snb-icon {
   color: var(--bs-danger);
-}
-.internal-auth p {
-  grid-area: message;
-}
-.internal-auth button {
-  grid-area: button;
 }
 .roles-container .tab-content #roles-tabs-tabpane-inventory .nav {
   border-bottom: solid 1px #6272A4 EDITED;
@@ -29767,7 +29070,7 @@ div.roles-content.tab-content {
   .mapping-selection
   .mapping-selector {
   color: #8be9fd EDITED;
-  background-color: #cff4fc;
+  background-color: #6272A4 EDITED;
 }
 .internal-source
   .mapping
@@ -29812,16 +29115,9 @@ div.roles-content.tab-content {
 }
 .policy-editor.policy-editor-readonly .CodeMirror.cm-s-solarized.cm-s-light {
   background-color: #282a36 EDITED;
-  text-shadow: none;
-}
-.policy-editor .CodeMirror-lint-marker-error {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEW7AAC7AACxAAC7AAC7AAAAAAC4AAC5AAD///+7AAAUdclpAAAABnRSTlMXnORSiwCK0ZKSAAAATUlEQVR42mWPOQ7AQAgDuQLx/z8csYRmPRIFIwRGnosRrpamvkKi0FTIiMASR3hhKW+hAN6/tIWhu9PDWiTGNEkTtIOucA5Oyr9ckPgAWm0GPBog6v4AAAAASUVORK5CYII=);
 }
 .CodeMirror-lint-tooltip {
   color: #f8f8f2 EDITED !important;
-}
-.CodeMirror-lint-message-error {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEW7AAC7AACxAAC7AAC7AAAAAAC4AAC5AAD///+7AAAUdclpAAAABnRSTlMXnORSiwCK0ZKSAAAATUlEQVR42mWPOQ7AQAgDuQLx/z8csYRmPRIFIwRGnosRrpamvkKi0FTIiMASR3hhKW+hAN6/tIWhu9PDWiTGNEkTtIOucA5Oyr9ckPgAWm0GPBog6v4AAAAASUVORK5CYII=);
 }
 li.CodeMirror-hint-active {
   background: var(--bs-primary);
@@ -29878,13 +29174,12 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 }
 .default-color-box {
   border: 1px solid #44475A EDITED !important;
-  background-color: #006fef;
+  background-color: #6272A4 EDITED;
 }
 .tenant-cell-top-info {
   color: #6272A4 EDITED;
 }
 .tenant-users-divider {
-  border: 1px solid;
   color: #44475A EDITED;
 }
 .snapHeader {
@@ -29904,7 +29199,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
   background-color: #44475A EDITED;
 }
 .systemStatus .statusBox {
-  box-shadow: 0 0.5rem 1rem #00000026;
   border: 1px solid #44475A EDITED;
 }
 .systemStatus .statusHeader {
@@ -30106,11 +29400,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
   background-color: #282a36 EDITED;
   border: 1px solid #44475A EDITED;
 }
-.asset-batch-table-container
-  .settings-view-header
-  .settings-view-header__title {
-  color: inherit !important;
-}
 .biodesign-metadata .bio-file-container,
 .asset-property-container .bio-file-container {
   border: solid 1px #44475A EDITED;
@@ -30121,7 +29410,7 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 }
 .biodesign-metadata .table-title,
 .asset-property-container .table-title {
-  color: #3d8bfd;
+  color: #8BE9FD EDITED;
 }
 .biodesign-metadata .table-image .field-key,
 .asset-property-container .table-image .field-key {
@@ -30164,7 +29453,6 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
 .content-table .multi-select:hover .placeholder,
 .content-table .multi-select:hover .rbt-token-container {
   border-color: #44475A EDITED;
-  box-shadow: inset 0 1px 1px #00000013;
 }
 .content-table .multi-select:hover .focus {
   box-shadow: inset 0 1px 1px #00000013, 0 0 8px #8BE9FD EDITED99;
@@ -30217,15 +29505,14 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
   outline-color: #8be9fd EDITED;
 }
 .asset-card {
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #0000001a;
   border: 1px solid #44475A EDITED;
 }
 .asset-card.selected {
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #3d8bfd1a;
+  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #8BE9FD EDITED1a;
   border-color: #8be9fd EDITED;
 }
 .asset-card:hover {
-  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #3d8bfd1a;
+  box-shadow: 0 6px 8px -4px #00000080, 0 0 6px #8BE9FD EDITED1a;
   border: 1px solid #8be9fd EDITED;
 }
 .asset-card .asset-card-header {
@@ -30389,7 +29676,7 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
   .bulk-result-tabs.nav
   .nav-item
   button.nav-link.active {
-  color: #3d8bfd;
+  color: #8BE9FD EDITED;
   border-bottom: 2px solid rgb(139, 233, 253) EDITED !important;
 }
 .movables-report-page {
@@ -30715,7 +30002,8 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
   .table-row.component-row
   td:after {
   border-bottom: 1px solid #44475A EDITED;
-}@supports (-moz-appearance: none) {
+}
+@supports (-moz-appearance: none) {
   .variations-table
     .vertical-summary
     .summary-table
@@ -31327,7 +30615,7 @@ div[class$="-form-barcode"] .btn-checkbox span:before {
 .request-container-modal .supplier-table tr.selected-package > td,
 .inventory-page .supplier-table tr:hover > td,
 .inventory-page .supplier-table tr.selected-package > td {
-  background-color: #cff4fc;
+  background-color: #6272A4 EDITED;
 }
 .request-container-modal
   .order-table-wrapper
@@ -31362,7 +30650,7 @@ div[class$="-form-barcode"] .btn-checkbox span:before {
 }
 .element .title-named,
 .title-named {
-  color: #3d8bfd;
+  color: #8BE9FD EDITED;
 }
 .element .title-untitled,
 .element .untitled h3 {
