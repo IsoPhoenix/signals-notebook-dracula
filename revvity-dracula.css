@@ -24930,8 +24930,8 @@ body {
   box-shadow: 0 0 0 0.2rem #ff5555 EDITED40;
 }
 .rbt-input-multi.is-valid.focus {
-  border-color: ##50FA7B EDITED;
-  box-shadow: 0 0 0 0.2rem ##50FA7B EDITED40;
+  border-color: #50FA7B EDITED;
+  box-shadow: 0 0 0 0.2rem #50FA7B EDITED40;
 }
 .rbt-input-multi input::-moz-placeholder {
   color: #6272a4 EDITED;
@@ -25101,6 +25101,9 @@ input:checked + .btn-slider:before {
 }
 .view-header button svg {
   filter: invert(1) EDITED;
+}
+.view-header + div {
+  background-color: #282A36 !important EDITED;
 }
 .view-container {
   background-color: #282a36 EDITED;
