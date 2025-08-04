@@ -25853,8 +25853,8 @@ button.fragment > img {
 .binder__tab--hover .binder__tab-content {
   color: #F8F8F2;
 }
-.binder__tab-background > svg > g path {
-  fill: none;
+.binder__tab-fill-add {
+  fill: none !important;
 }
 .icon-color,
 .icon-color :hover {
