@@ -24917,6 +24917,7 @@ body {
   --revvity-primary-green: rgb(80 250 123);
   --revvity-gray: #44475A;
   --revvity-night: #F8F8F2;
+  scrollbar-color: #44475A #282A36;
 }
 .rbt-input-multi.focus {
   border-color: #8BE9FD;
