@@ -1,3 +1,5 @@
+![Thumbnail](thumbnail.png)
+
 # Signals Notebook Dracula Theme
 
 ## Installation
