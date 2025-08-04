@@ -25830,25 +25830,31 @@ button.fragment > img {
   background-color: #44475A;
   color: #44475A;
 }
-.binder__tab--normal .binder__tab-fill {
-  fill: #44475A;
+.binder__tab-wrapper {
+  color: #6272A4;
 }
 .binder__tab--normal .binder__tab-content {
   color: #6272a4;
   text-shadow: 0 1px 0 rgba(40, 42, 54, 0.4);
 }
+.binder__tab--normal .binder__tab-fill {
+  fill: #44475A;
+}
 .binder__tab--active .binder__tab-fill {
   fill: #282a36;
+}
+.binder__tab--hover .binder__tab-fill {
+  fill: #6272A4;
 }
 .binder__tab--active .binder__tab-content {
   color: #6272a4;
   text-shadow: 0 1px 0 rgba(40, 42, 54, 0.4);
 }
-.binder__tab--hover .binder__tab-fill {
-  fill: #44475A;
-}
 .binder__tab--hover .binder__tab-content {
-  color: #282a36;
+  color: #F8F8F2;
+}
+.binder__tab-background > svg > g path {
+  fill: none;
 }
 .icon-color,
 .icon-color :hover {
