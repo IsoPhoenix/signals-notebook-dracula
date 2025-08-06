@@ -31268,3 +31268,6 @@ div[class$="-form-barcode"] .btn-checkbox span:before {
 .tox .tox-custom-editor {
   border:1px solid #44475A;
 }
+.stoic-summary__label {
+  border: none !important;
+}
