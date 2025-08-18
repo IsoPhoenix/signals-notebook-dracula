@@ -29598,7 +29598,7 @@ form[name="activate-data-factory-maps"] > :has(button[type="submit"]) {
   background: #50FA7B;
 }
 #lightbox-portal .lightbox-screen.active {
-  background-color: #6272A4;
+  background-color: rgb(40, 42, 54, 0.85);
 }
 #lightbox-portal figure,
 #lightbox-portal .lightbox-error {
